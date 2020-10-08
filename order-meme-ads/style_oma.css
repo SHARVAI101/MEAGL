@@ -1,0 +1,224 @@
+/*The nav bar*/
+    .top-nav{
+    	height: 50px;
+    	position: fixed;
+    	top:0px;
+    	z-index: 100;
+    	background-color: white;
+    	box-shadow: 0px 1px 0.5px #cccccc; 
+    }
+    .website-name{
+    	position: absolute;
+    	left: 30px;
+    	font-size: 35px;
+    	font-family: 'Open Sans', sans-serif;
+    	color: #b522a8;
+    }
+    a.website-name:hover{
+    	text-decoration: none;
+    	color: #b522a8;
+    }
+
+    .website-name,#search-box,.dropdown{
+    	display: inline-block;
+    	vertical-align: middle;
+
+    }
+    @media screen and (max-width: 1800px){
+    	.top-nav{
+    		width: 100%;
+    	}
+    }
+.meme-ad-page-1{
+		background-color:#000000;
+		/*margin-top:100px;*/
+		/*position:absolute;*/
+		width:100%;
+		height:90%;
+	}
+
+	.meme-ad-page-1-contents{
+		margin-top:100px;
+	}
+
+	.develop-text-ad{
+		font-family: 'Open Sans','sans-serif';
+		font-size: 40px;
+		text-align: center;
+		margin-top:20px;
+		
+	}
+
+	.parallax {
+	    /* The image used */
+	    background-image: url("P1020007_resized.png");
+
+
+	    /* Set a specific height */
+	    /*min-height: 700px; */
+	    height:100%;
+	    /*margin-top:50px;*/
+	    /* Create the parallax scrolling effect */
+	    background-attachment: fixed;
+	    background-position: center;
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	}
+
+.parallax1 {
+    /* The image used for example: http://s1.1zoom.me/b5351/578/Switzerland_Houses_Mountains_Scenery_Lauterbrunnen_518318_3840x2160.jpg*/
+    background-image: url("collage_meme_ad.jpg");
+
+    /* Set a specific height */
+    height: 100%; 
+    margin-top:0px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+    /* The image used for example: http://s1.1zoom.me/b5351/578/Switzerland_Houses_Mountains_Scenery_Lauterbrunnen_518318_3840x2160.jpg*/
+    background-image: url("header_image_g.png");
+
+    /* Set a specific height */
+    height: 100%; 
+    margin-top:0px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.para1{
+	min-height:100vh;
+	background-color: #1B2832;
+	border-style:solid;
+	border-top-color: #AA9131;
+	border-left-color: #1B2832;
+	border-right-color: #1B2832;
+	border-bottom-color: #1B2832;
+}
+.para2{
+	min-height:100vh;
+	background-color: #262822;
+	border-style:solid;
+	border-top-color: #95CE2C;
+	border-left-color: #262822;
+	border-right-color: #262822;
+	border-bottom-color: #262822;
+}
+
+.para3{
+	min-height:100vh;
+	background-color:#00695C;
+	border-style:solid;
+	border-top-color: #fff;
+	border-left-color: #00695C;
+	border-right-color: #00695C;
+	border-bottom-color: #00695C;
+}
+
+.para4{
+	min-height:100vh;
+	background-color:#1B2832;
+	border-style:solid;
+	border-top-color: #AA9131;
+	border-left-color: #1B2832;
+	border-right-color: #1B2832;
+	border-bottom-color: #1B2832;
+}
+
+.para5{
+	min-height:100vh;
+	background-color:#000;
+	border-style:solid;
+	border-top-color: #AA9131;
+	border-left-color: #000;
+	border-right-color: #000;
+	border-bottom-color: #000;
+}
+
+.para6{
+	min-height:100vh;
+	background-color:#1B2832;
+	border-style:solid;
+	border-top-color: #AA9131;
+	border-left-color: #1B2832;
+	border-right-color: #1B2832;
+	border-bottom-color: #1B2832;
+}
+
+/*om_p means order memes paragraph*/
+.om_p{
+	font-family: 'Open Sans','sans-serif';
+	color:#AA9131;
+	/*margin-left:20px;*/
+	font-size: 20px;
+	text-align:center;
+}
+.om_h{
+	font-family: 'Open Sans','sans-serif';
+	color:#AA9131;
+	/*margin-left:20px;*/
+	font-size: 50px;
+	text-align: center;
+	margin-top:0px;
+}
+
+.lato{
+	font-family: 'Lato','sans-serif';
+}
+
+.roboto{
+	font-family: 'Roboto','sans-serif';
+}
+
+.montserrat{
+	font-family: 'Montserrat','sans-serif';
+}
+
+.special-elite{
+	font-family: 'Special Elite','sans-serif';
+}
+
+.p2{
+	color:#95CE2C;
+}
+
+.p3{
+	color:#fff;
+}
+
+.p4{
+	color:#AA9131;
+}
+
+.p5{
+	color:#cccccc;
+}
+
+.pointers{
+	color:#fff;
+	text-align: center;
+}
+
+.transparent{
+    background: rgba(0, 0, 0, 0); 
+    box-shadow: 0px 0px 0px #1B2832;
+}
+
+.nextpara{
+	position:fixed;
+	bottom:10px;
+	width:50px;
+	font-size: 30px;
+	color:#fff;
+	/*margin:0 auto;
+	display:block;*/
+	left:50%;
+	cursor:pointer;
+}

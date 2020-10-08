@@ -1,0 +1,280 @@
+<head>
+	<title>My Home</title>
+		<!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+    
+    <link rel="stylesheet" type="text/css" href="sharvai'sglobal.css" />
+    <script
+  src="https://code.jquery.com/jquery-3.1.1.js"
+  integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+  crossorigin="anonymous"></script>
+  	<script src="newhome.js"></script>
+  	<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+  	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+</head>
+
+<body style="background-color: #FEFEFE">
+	<div class="top-nav container-fluid">
+    <nav>
+		<a href="#" class="website-name">.meagl</a>
+    
+    <div class="dropdown">
+        <a href="#" id="dropdown">
+                <span class="glyphicon glyphicon-chevron-down"></span>
+            </a>
+    </div>
+    
+		<div class="search-box" id="search-box">
+			<input type="text" placeholder="Search meagle" class="search form-control" style="font-size:20px;">
+		</div>
+    <div class="wrapper">
+    <div class="dp">
+        <a href="#"><img src="https://pbs.twimg.com/profile_images/782474226020200448/zDo-gAo0_400x400.jpg" id="dp" class="img-responsive"></a>
+    </div>
+
+    <div class="notifications">
+        <a href="#" id="notifications">
+                <span class="glyphicon glyphicon-bell"></span>
+            </a>
+    </div>
+
+    <div class="post-a-meme">
+        <a href="#" id="upload"><span class="glyphicon glyphicon-upload"></span></a>
+    </div>
+    </nav>
+	</div>
+
+  <div class="header2">
+    <a href="#" class="categ-link"><h1 class="categ">Story memes</h1></a>
+    <a href="#" class="categ-link"><h1 class="categ">Politics</h1></a>
+    <a href="#" class="categ-link"><h1 class="categ">Sports</h1></a>
+    <a href="#" class="categ-link"><h1 class="categ">Celebs</h1></a>
+    <a href="#" class="categ-link"><h1 class="categ">Controversial</h1></a>
+    <a href="#" class="categ-link"><h1 class="categ">WTF</h1></a>
+    <a href="#" class="categ-link"><h1 class="categ">Gaming</h1></a>
+    <a href="#" class="categ-link"><h1 class="categ">News</h1></a>
+    <a href="#" class="categ-link"><h1 class="categ">Cartoons</h1></a>
+    <a href="#" class="categ-link"><h1 class="categ">Dark</h1></a>
+    <a href="#" class="categ-link"><h1 class="categ">StuDying</h1></a>
+    <a href="#" class="categ-link"><h1 class="categ">Meme Developer Forum</h1></a>
+  </div>
+  <div class="infobox centering">
+  	<div class="left-part">
+      <img src="https://pbs.twimg.com/profile_images/782474226020200448/zDo-gAo0_400x400.jpg" id="infobox-dp" style="padding:5px;">
+    	<h1 class="username">Elon.M</h1>
+      <button class="btn" id="friend-request">Send friend Request</button>
+    	<button class="btn" id="follow">Follow</button>
+      <h1 class="usernick">Musk_Boi</h1>
+      <h1 class="info-followers">Followers: 21</h1>
+      <h1 class="info-following">Following: 35</h1>
+      <h1 class="info-posts">Posts: 27</h1>
+      <h1 class="score"><span id="score">246</span></h1>
+      <h1 class="info-meagles">Meagls: 2</h1>
+      <h1 class="info-questions">Questions asked: 7</h1>
+      <h1 class="user-says">"All the worlds a meme."</h1>
+
+    </div>
+  </div>
+  <div class="tabs" id="home-page-tabs">
+      <a id="memes-tab">Memes</a>
+      <a id="subscriptions-tab">Subscriptions</a>
+      <a id="social-tab">Social</a>
+      <canvas id="tab-bottom" width="600" height="5"></canvas>
+      <a href="#" id="notif-tab">Notifications</a>
+      <!--For the tabs-->
+  </div>
+  <div>
+    <div class="memes-tab-content" id="memes-tab-content">
+      <div class="meme centering">
+        <h1 class="title">Englishmen!</h1>
+        <h1 class="posted-by">-posted by <a href="#" class="saboo" style="color:#9A12B3">Sabooo</a></h1>
+        <div class="small-profile">
+          <h1>Hi</h1>
+        </div>
+        <img class="image" src="http://img-9gag-fun.9cache.com/photo/arbOEE0_460s_v1.jpg">
+        <h1 class="points">1500 points</h1>
+        <h1 class="comments">213 comments</h1>
+        <div class="category_1"> <h1 align="right" style="font-size:17px;">Category: <a href="#" style="color:#9A12B3;">Celebs</a></h1></div>
+        <h4></h4>
+        <a href="#"><img src="https://image.freepik.com/iconos-gratis/comentario-de-chat-discurso-burbuja-oval-con-lineas-de-texto_318-70514.jpg" class="comment"></a>
+        <a href="#"><img src="/Users/gauravsangle/Documents/upvote.jpg" class="upvote"></a>
+        <div class="category"> <h1 align="right" style="font-size:17px;">from <a href="#" style="color:#9A12B3;">Subscriptions</a></h1></div>
+      </div>
+
+      
+
+      <div class="meme centering">
+        <h1 style="margin-left:14px;font-size:30px;">This meme!</h1>
+        <img class="image" src="http://img-9gag-fun.9cache.com/photo/a0bb9Ld_460s.jpg">
+        <h1 class="points">1500 points</h1>
+        <h1 class="comments">213 comments</h1>
+        <div class="category_1"> <h1 style="font-size:17px;">Category: <a href="#" style="color:#9A12B3;">Celebs</a></h1></div>
+        <h4></h4>
+        <a href="#"><img src="https://image.freepik.com/iconos-gratis/comentario-de-chat-discurso-burbuja-oval-con-lineas-de-texto_318-70514.jpg" class="comment"></a>
+        <a href="#"><img src="/Users/gauravsangle/Documents/upvote.jpg" class="upvote"></a>
+        <div class="category"> <h1 align="right" style="font-size:17px;">from <a href="#" style="color:#9A12B3;">Subscriptions</a></h1></div>
+      </div>
+    </div>
+    <div class="subscriptions-tab-content">
+      <div class="meme centering">
+        <h1 class="title">Go fish!</h1>
+        <h1 class="posted-by">-posted by <a href="#" class="saboo" style="color:#9A12B3">Fibonacci</a></h1>
+        <div class="small-profile">
+          <h1>Hi</h1>
+        </div>
+        <img class="image" src="http://img-9gag-fun.9cache.com/photo/abpz0g9_460s.jpg">
+        <h1 class="points">1500 points</h1>
+        <h1 class="comments">213 comments</h1>
+        <div class="category_1"> <h1 align="right" style="font-size:17px;">Category: <a href="#" style="color:#9A12B3;">Celebs</a></h1></div>
+        <h4></h4>
+        <a href="#"><img src="https://image.freepik.com/iconos-gratis/comentario-de-chat-discurso-burbuja-oval-con-lineas-de-texto_318-70514.jpg" class="comment"></a>
+        <a href="#"><img src="/Users/gauravsangle/Documents/upvote.jpg" class="upvote"></a>
+        <div class="category"> <h1 align="right" style="font-size:17px;">from <a href="#" style="color:#9A12B3;">Subscriptions</a></h1></div>
+      </div>
+      <div class="meme centering">
+      <h1 style="margin-left:14px;font-size:30px;">This meme!</h1>
+      <img class="image" src="http://img-9gag-fun.9cache.com/photo/a0bb9Ld_460s.jpg">
+      <h1 class="points">1500 points</h1>
+        <h1 class="comments">213 comments</h1>
+        <div class="category_1"> <h1 align="right" style="font-size:17px;">Category: <a href="#" style="color:#9A12B3;">Celebs</a></h1></div>
+        <h4></h4>
+        <a href="#"><img src="https://image.freepik.com/iconos-gratis/comentario-de-chat-discurso-burbuja-oval-con-lineas-de-texto_318-70514.jpg" class="comment"></a>
+        <a href="#"><img src="/Users/gauravsangle/Documents/upvote.jpg" class="upvote"></a>
+        <div class="category"> <h1 align="right" style="font-size:17px;">from <a href="#" style="color:#9A12B3;">Subscriptions</a></h1></div>
+    </div>
+    </div>
+
+    <div class="tab" id="sociallife"> 
+        <div class="friends_div">
+            <h3 class="friend-list-header">My Friends:</h3>
+            <div class="all_friends_div">                
+                <div class="friend" id="friend<?php echo $friend_request_id; ?>">
+                    <p class='friends'><a style="color:black" href="">Charlie Chalie</a>
+                    <button type="submit" class="removefriendbutton btn" id="removefriend'.htmlentities($friend_request_id).'" name="removefriend'.htmlentities($friend_request_id).'">Unfriend</button>
+                     </p>               
+                </div> 
+            </div>
+          </div>
+                
+        
+               
+
+        <div class="social-tab-content">
+            <div class="search-social">
+                <form class="userprofile_username_search" action="usernamesearch.php" method="POST">
+                    <input type="textarea" class="search-people form-control" name="search" id="searchtext" placeholder="Search Users"><br>
+                    <input type="submit" value="Search" class="usersearchbutton btn">
+                </form>
+                
+                <div class="searchusers" style="display:none">
+                    <div class="social-search-result">
+                      <p id="usersearchMessage">Elon Musk</p>
+                    </div>
+                    <div class="social-search-result">
+                      <img class="social-search-dp" src="Elon.jpg">
+                      <p id="usersearchMessage">Mark Cuban</p>
+                    </div>
+                </div>
+                <button class="searchtogglebutton btn" style="display:none"><span class="glyphicon glyphicon-chevron-up"></span></button>
+            </div>
+            <button class="showMakeNewGroupFormButton btn create-group">Create Group</button>
+            
+
+            <hr>
+        
+        
+        
+        <div class="make_group_div">
+            <h3 class="create-group-header">Create Group</h3>
+            
+            <form class="newGroupCreationForm" method="post" action="newFriendsGroupCreation.php">
+                <h5 class="group-name-header" style="display:inline-block"> Group Name:</h5>
+                <input id="groupNameTextbox" class="group_input form-control" type="text" name="groupname" placeholder="Groupname" style="display:inline-block">
+                <h5 class="group-name-header" id="invite-prompt">Send invites:</h5>    
+                <input class="form-control friend-prompt" type="text"> 
+                <div class="friend-list">           
+                  <label class="checkbox" style="margin-top:5px"><input type="checkbox" class="groupInviteCheckbox" name="new_group_user_ids[]">Elon Musk</label>
+                  <label class="checkbox"><input type="checkbox" class="groupInviteCheckbox" name="new_group_user_ids[]" >Steve Jobs</label>
+                  <label class="checkbox"><input type="checkbox" class="groupInviteCheckbox" name="new_group_user_ids[]" >Jeff Bezos</label>
+                  <label class="checkbox"><input type="checkbox" class="groupInviteCheckbox" name="new_group_user_ids[]" >Bill Clinton</label>
+                  <label class="checkbox"><input type="checkbox" class="groupInviteCheckbox" name="new_group_user_ids[]" >Hillary Clinton</label>
+                  <label class="checkbox"><input type="checkbox" class="groupInviteCheckbox" name="new_group_user_ids[]" >Donald Trump</label>
+                  <label class="checkbox"><input type="checkbox" class="groupInviteCheckbox" name="new_group_user_ids[]" >Larsen</label>
+                  <label class="checkbox"><input type="checkbox" class="groupInviteCheckbox" name="new_group_user_ids[]" >And</label>
+                  <label class="checkbox"><input type="checkbox" class="groupInviteCheckbox" name="new_group_user_ids[]" >Toubro</label>
+                </div>
+                  <button class="btn group_input" type="submit">Create <span class="glyphicon glyphicon-chevron-right"></span></button>
+            </form>
+            <p class="group_input" id="groupMakingOutput"></p>
+        </div>
+        
+
+        <h3 class="friend-request-heading">Friend Requests</h3>
+        <button class="friendrequeststogglebutton btn"><span class="glyphicon glyphicon-chevron-down"></span></button>    
+        
+        <div class="friendrequests" style="display:none">
+            
+            <div class="request">
+                <p class='acceptOrRejectfriendrequeststatus request-content' id='friendrequeststatus".htmlentities($friend_request_id)."'><a href=''>Chibii</a> has sent you a friend request!</p>
+                    
+
+                <form class="acceptfriendrequestform" id="acceptfriendrequestform<?php echo htmlentities($friend_request_id);?>">
+                    <button type="submit" class="acceptFriendRequestButton btn accept text-success" id="<?php echo htmlentities($friend_request_id); ?>"><span class="glyphicon glyphicon-ok"></span></button>
+                </form>
+                <form class="rejectfriendrequestform" id="rejectfriendrequestform<?php echo htmlentities($friend_request_id);?>">
+                    <button type="submit" class="rejectFriendRequestButton btn reject text-danger" id="<?php echo htmlentities($friend_request_id); ?>"><span class="glyphicon glyphicon-remove"></span></button>
+                </form>
+                    
+            </div>
+
+
+
+            
+        </div>   
+        <hr>
+        <h3 class="group-request-heading">Group Invites</h3>
+        <button class="groupInvitesToggleButton btn"><span class="glyphicon glyphicon-chevron-down"></span></button> 
+
+        <div class="view_pending_group_invites" style="display:none">            
+            
+            
+            <div class="request">
+                <div class="group_invite" id="groupInvite<?php echo htmlentities($inviteId); ?>">
+                    <p class="request-content">You have been invited to join the group <a href="">Old Friends</a> by <a href="">Napoleon</a> on <?php echo $date; ?>.</p>                    
+                    <p id="acceptOrRejectGroupInvite<?php echo htmlentities($inviteId); ?>"></p>
+                    <form class="acceptGroupInviteForm" id="acceptGroupInviteForm<?php echo htmlentities($inviteId); ?>" method="post" action="">
+                        <button type="submit" class="btn accept text-success" value="Accept Invitation"><span class="glyphicon glyphicon-ok"></span></button>
+                    </form>
+                    <form class="rejectGroupInviteForm" id="rejectGroupInviteForm<?php echohtmlentities ($inviteId); ?>" method="post" action="">
+                        <button type="submit" class="btn reject text-danger" value="Reject Invitation"><span class="glyphicon glyphicon-remove"></span></button>
+                    </form>
+
+                </div>    
+            </div>            
+
+        </div>     
+        <hr>   
+
+        <div class="meagles_div">
+            <h3 class="meagles-heading">Meagls</h3>            
+            <div class="allmeagles">
+                
+                <div class="meagl">                            
+                    <p><a href="">Group Name</a></p>
+                    <p>Last Activity: <?php echo getTime($lastActivityDateTime); ?></p>                        
+                </div>
+            </div>            
+        </div>
+
+        
+    </div>
+  
+
+
+
+</body>

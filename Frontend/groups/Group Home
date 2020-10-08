@@ -1,0 +1,164 @@
+<head>
+    <title>Group Page</title>
+	<!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+    
+    <link rel="stylesheet" type="text/css" href="sharvai'sglobal.css" />
+    <script
+  src="https://code.jquery.com/jquery-3.1.1.js"
+  integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+  crossorigin="anonymous"></script>
+  	<script src="newhome.js"></script>
+  	<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+
+
+</head>
+<body style="background-color:#fefefe">
+<div class="top-nav container-fluid">
+    <nav>
+    <a href="#" class="website-name">.meagl</a>
+
+
+    
+    <div class="dropdown">
+        <a href="#" id="dropdown">
+                <span class="glyphicon glyphicon-chevron-down"></span>
+        </a>
+    </div>
+    
+    <div class="search-box" id="search-box">
+      <input type="text" placeholder="Search meagle" class="search form-control" style="font-size:20px;">
+    </div>
+    <div class="wrapper">
+    <div class="dp">
+        <a href="#"><img src="https://pbs.twimg.com/profile_images/782474226020200448/zDo-gAo0_400x400.jpg" id="dp" class="img-responsive"></a>
+    </div>
+
+    <div class="notifications">
+        <a href="#" id="notifications">
+                <span class="glyphicon glyphicon-bell"></span>
+            </a>
+    </div>
+
+    <div class="post-a-meme">
+        <a href="#" id="upload"><span class="glyphicon glyphicon-upload"></span></a>
+    </div>
+    </div>
+    </nav>
+    <div class="user-options">
+      <a href="#" class="user-option-link"><h4 class="user-option">Settings</h4></a>
+      <a href="#" class="user-option-link"><h4 class="user-option">Log out</h4></a>
+    </div>
+  </div>
+
+  <div class="header2">
+    <a href="#" class="categ-link"><h1 class="categ">Story memes</h1></a>
+    <a href="#" class="categ-link"><h1 class="categ">Politics</h1></a>
+    <a href="#" class="categ-link"><h1 class="categ">Sports</h1></a>
+    <a href="#" class="categ-link"><h1 class="categ">Celebs</h1></a>
+    <a href="#" class="categ-link"><h1 class="categ">Controversial</h1></a>
+    <a href="#" class="categ-link"><h1 class="categ">WTF</h1></a>
+    <a href="#" class="categ-link"><h1 class="categ">Gaming</h1></a>
+    <a href="#" class="categ-link"><h1 class="categ">News</h1></a>
+    <a href="#" class="categ-link"><h1 class="categ">Cartoons</h1></a>
+    <a href="#" class="categ-link"><h1 class="categ">Dark</h1></a>
+    <a href="#" class="categ-link"><h1 class="categ">StuDying</h1></a>
+    <a href="#" class="categ-link"><h1 class="categ">Meme Developer Forum</h1></a>
+  </div>
+  <div class="group-invitation">
+   <p class="invitation-prompt">You have an invite request pending from this group.</p>
+   <form class="acceptGroupInviteForm form-accept" id="acceptGroupInviteForm<?php echo htmlentities($inviteId); ?>" method="post" action="">        
+        <button type="submit" class="btn accept text-success group-accept" value="Accept Invitation"><span class="glyphicon glyphicon-ok"></span></button>
+    </form>
+    <form class="rejectGroupInviteForm form-reject" id="rejectGroupInviteForm<?php echo htmlentities($inviteId); ?>" method="post" action="">
+        <button type="submit" class="btn reject text-danger group-reject" value="Reject Invitation"><span class="glyphicon glyphicon-remove"></span></button>
+    </form>
+  </div>
+
+
+  
+    <div class="group" id="<?php echo htmlentities($groupId); ?>">
+        <img id="group_dp" src="https://pbs.twimg.com/profile_images/782474226020200448/zDo-gAo0_400x400.jpg">
+        <h3 class="group-name"><a class="group-name" href="">Dank Memes</a></h3>
+        <p class="last-active">Last Active: <?php echo getTime($datetime); ?></p>
+        <p class="created">Created: <?php echo htmlentities($date); ?></p> 
+        <hr>
+        <p class="groupNumberOfParticipants">Participants: 51</p>
+        <p class="exitGroupMessageLabel"></p>
+        <form class="exitGroupForm" id="exitGroupForm<?php echo htmlentities($userId); ?>" method="post" action="">        
+            <input type="submit" value="Exit Group" class="btn exit-btn">
+        </form>
+        <div class="group_participants">
+                <p class="participant-name">Sharvai</p>
+                <p class="participant-name">Gaurav</p>
+                <p class="participant-name">Fenil</p>
+        </div>
+            
+
+        
+    </div>
+    <div class="right-container">
+    <div class="quick-view">
+      <h3 class="quick-view-header"> <a>Quick view<span class="glyphicon glyphicon-chevron-right" style="font-size:17px;top:-1px"></span></a></h3>
+      <img class="quickview-img" src="https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2014/07/25/101867402-mark-cuban.1910x1000.jpg">
+      <img class="quickview-img" src="https://pbs.twimg.com/profile_images/1422637130/mccigartrophy_400x400.jpg">
+    </div>
+    <div class="group-memes">
+      <div class="meme centering">
+          <h1 class="title">Englishmen!</h1>
+          <h1 class="category">from <a href="#" class="saboo" style="color:#9A12B3">Subsrciptions</a></h1>
+          <div class="small-profile">
+            <h1>Hi</h1>
+          </div>
+          <img class="image" src="http://img-9gag-fun.9cache.com/photo/arbOEE0_460s_v1.jpg">
+          <h1 class="points">1500 likes</h1>
+          <h1 class="comments">213 comments</h1>
+          <a class="flag" href="#"><span class="glyphicon glyphicon-flag"></span> Report</a>
+          <div class="category_1"> <h1 align="right" style="font-size:17px;">Category: <a href="#" style="color:#9A12B3;">Celebs</a></h1></div>
+          <h4></h4>
+          <a href="#"><img src="https://image.freepik.com/iconos-gratis/comentario-de-chat-discurso-burbuja-oval-con-lineas-de-texto_318-70514.jpg" class="comment"></a>
+          
+          <p class="subscribers" name="subscribers">24</p>
+          <button class="btn subscribe-button">Subscribe</button>
+
+          <a href="#"><img src="https://image.freepik.com/free-icon/like-hand-symbol-for-social-media-interface_318-30403.jpg" class="upvote"></a>
+          <div class="posted-by"> <h1 align="right" style="font-size:17px;">-posted by <a href="#" style="color:#9A12B3;">Sharvai</a></h1></div>
+          
+      </div>
+    </div>
+  </div>
+
+    
+    
+
+    
+   
+    //
+    <div>
+    <h2>Update Group Display Picture</h2>
+    <p>Maximum allowed size is 6 MB</p>
+    <form class="updateGroupPicForm" method="post" enctype="multipart/form-data" action="">                
+        <input type="hidden" name="groupId" value="<?php echo htmlentities($groupId); ?>">    
+        <input type="file" id="groupPic" name="groupPic"><br>
+        <input type="submit" value="Update Group Pic">
+    </form>
+    <p id="updateGroupPicError"></p>
+    </div>
+
+    <div>
+    <button class="viewGroupParticipantsButton">View Group Participants</button>
+    <hr>
+    
+    </div>
+
+    <div>
+        normal images ka code...just like that on index.php
+    </div>
+  </body>

@@ -1,0 +1,2 @@
+$startTime = microtime(true);
+echo "Time:  " . number_format(( microtime(true) - $startTime), 10) . " Seconds\n";

@@ -1,0 +1,1773 @@
+
+	.padder{
+		padding-top:10px;
+		font-size: 60px;
+	}
+	.Top{
+		margin-top: -25px;
+		background-color:#b522a8;
+		box-shadow: 0px 5px 5px;
+	}
+	.txt{
+		margin-top: 80px;
+		display:block;
+		margin-left: auto;
+		margin-right: auto;
+		width:450px;
+		height:70px;
+		border-radius: 10px;
+	}
+	#post-meme{
+		width:300px;
+		border-radius: 22px;
+		box-shadow: 0px 8px #D35400;
+		font-size:35px;background-color:#F89406;
+	}
+	#profile-picture{
+		height:142px;
+		width: 142px;
+		border-radius: 50%;
+		margin-top: 90px;
+		margin-left: 30px;
+
+
+	}
+	.centering{
+		display:block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.Top1{
+		margin-top:-10px;
+	}
+	.inline{
+		list-style: none;
+		margin:0px;
+		padding: 0px;
+	}
+	.inline li{
+		display: inline-block;
+		/*border-top: solid;
+		border-left: solid;
+		border-right: solid;
+		border-bottom: hidden;
+
+		border-radius: 10px;*/
+		margin-right: -6px;
+	}
+	li{
+		list-style: none;
+	}
+	.inline a{
+		display:block;
+		padding:20px;
+		margin: 20px;
+
+	}
+	a{
+		cursor: pointer;
+	}
+	.form-div{
+		box-shadow: 10px 10px 10px;
+		margin-top: 2%;
+		margin-bottom: 25%;
+		margin-right: 3%;
+		margin-left: 57%;
+		background-color:#E4F1FE;
+		border-radius: 25px;
+	}
+	.inbutton{
+		box-shadow: 0px 10px #1F3A93;
+	}
+	.entrypage{
+
+    	background-image: url("/Users/gauravsangle/Downloads/EyooTML-meme-wallpaper.jpg");
+    	background-color: #cccccc;
+    }
+
+    /*The nav bar*/
+    .top-nav{
+    	height: 50px;
+    	position: relative;
+    	position: fixed;
+    	top:0px;
+    	z-index: 100;
+    	background-color: white;
+    	box-shadow: 0px 1px 0.5px #cccccc; 
+    }
+    .login-bar{
+    	height: 70px;
+    	position: relative;
+    	position: fixed;
+    	top:0px;
+    	z-index: 100;
+    	width: 100%;
+    	background-color: white;
+    	box-shadow: 0px 1px 0.5px #cccccc; 
+    }
+    .login-wrapper{
+    	position: fixed;
+    	width: 700px;
+    	height: 55px;
+    	right: 0px;
+    	top:5px;
+    }
+
+    .prompt-style{
+    	font-family: 'Open Sans', sans-serif;
+    	color: #b522a8;
+    	font-size: 16px;
+    	position: relative;
+    	left: 60px;
+    }
+    .username-prompt,.password-prompt{
+    	position: relative;
+    	bottom: 20px;
+    	left:82px;
+    	display: inline-block;
+    }
+    .username-input,.password-input{
+    	position: relative;
+    	top: 12px;
+    	display: inline-block;
+    	font-family: 'Open Sans', sans-serif;
+    	font-size: 13px;
+    	width: 200px;
+    }
+    .signup-header{
+    	font-family: 'Open Sans', sans-serif;
+    	color: black;
+    	font-size: 32px;
+    	position: relative;
+    	left: 60px;
+    }
+    .password-input{
+    	right: 63px;
+    }
+    .password-prompt{
+    	left: 12px;
+    }
+    input.username-input::-webkit-input-placeholder,input.password-input::-webkit-input-placeholder {
+    	font-size: 21px;
+    	font-family: 'Open Sans', sans-serif;
+    	bottom: 5px;
+    }
+    .login-button{
+    	background-color: black;
+    	position: relative;
+    	top: 8px;
+    	left: -50px;
+		font-family: 'Open Sans', sans-serif;
+		letter-spacing: 3px;
+		font-size: 16px;
+		width: 83px;
+		height: 33px;
+    }
+    .signup-button{
+    	background-color: black;
+    	position: relative;
+    	top: 18px;
+    	left: 160px;
+		font-family: 'Open Sans', sans-serif;
+		letter-spacing: 1px;
+		font-size: 18px;
+		width: 94px;
+		height: 40px;
+    }
+    .signup,.meagl-info{
+    	display: inline-block;
+    	vertical-align: top;
+    }
+    .meagl-infos{
+    	position: relative;
+    	top:150px;
+    	left: 50px;
+    	font-size: 34px;
+    	font-family: 'Open Sans', sans-serif;
+    }
+    .p-lines{
+    	padding-bottom: 20px;
+    }
+    .meagl-it{
+    	position:relative;bottom:25px;left:130px;
+    	color: #b522a8;
+    }
+    @media screen and (max-width: 1800px){
+    	.top-nav{
+    		width: 100%;
+    	}
+    }
+
+
+    /*The websites name in the nav bar*/
+    .website-name{
+    	position: absolute;
+    	left: 30px;
+    	font-size: 35px;
+    	font-family: 'Open Sans', sans-serif;
+    	color: #b522a8;
+    }
+    a.website-name:hover{
+    	text-decoration: none;
+    	color: #b522a8;
+    }
+
+    .website-name,#search-box,.dropdown{
+    	display: inline-block;
+    	vertical-align: middle;
+
+    }
+
+    /*Dropdown*/
+    .dropdown{
+    	position: absolute;
+    	left:150px;
+    	top:15px;
+    }
+    #dropdown{
+    	color: #b522a8;
+    	font-size: 25px;
+
+    }
+
+    
+    /*The search box*/
+    #search-box{
+    	position: absolute;
+    	margin-left: 50%;
+    	margin-right: 50%;
+    	left: -30px;
+    	top:5px;
+    	margin-top: 5px;
+    	border-radius: 10px;
+    	z-index: 10;
+    }
+    .search{
+    	font-size: 20px;
+    	color:#b522a8;
+    	width:185px;
+    	border-radius: 13px;
+    	background-color: #FAFAFA;
+    	z-index: 10;
+    }
+    input.search:focus{
+    	background-color: white;
+    }
+    .modify-search-box{
+    	width: 350px;
+    	margin-left: -75px;
+    }
+    input.search::-webkit-input-placeholder {
+		font-size: 20px;
+ 		color:#BDBDBD;
+ 		padding-left: auto;
+ 		padding-right: auto;
+	}
+
+    .addBlur:not(#search-box){
+    	filter:blur(1.5px);
+    }
+
+    .imgBlur{
+    	filter:blur(5px);
+    }
+
+    .wrapper{
+    	position: fixed;
+    	width: 330px;
+    	height: 55px;
+    	right: 0px;
+    	top:5px;
+    }
+
+    #dp,#notifications,#upload{
+    	display: inline-block;
+    	vertical-align: top;
+    }
+
+	/*Display picture*/
+	#dp{
+		border-radius: 50%;
+		height: 40px;
+		width: 40px;
+	}	
+	.dp{
+		position: absolute;
+		left: 7vw;
+		top: 2px;
+		width: 50px;
+		height: 50px;
+	}
+
+
+	/*notifications*/
+	#notifications{
+		position: absolute;
+		left:11.8vw;
+		color: black;
+		font-size: 32px;
+		top: 4px;
+	}
+
+	/*Post a meme*/
+	#upload{
+		color: black;
+		position: absolute;
+		left: 16vw;
+		font-size: 34px;
+		top: 3px;
+	}
+
+
+	/*Meme Developer forum*/
+
+	.question{
+		position: relative;
+		width: 735px;
+		height: 300px;
+		margin-top: 110px;
+		margin-left: 25%;
+		border: 1px solid #cccccc;
+		border-radius: 3px;
+		background-color: white;
+	}
+
+	.question-asked{
+		margin-top: 30px;
+		margin-left: 28px;
+		width: 676px;
+		font-size: 29px;
+		background-color: #FcFcFc;
+	}
+	input.question-asked::-webkit-input-placeholder{
+		letter-spacing: -0.25px;
+	}
+	.post-question{
+		font-family: 'Open Sans', sans-serif;
+		font-size: 21px;
+		position: relative;
+		top:100px;
+		left:90px;
+		background-color: black;
+		color: white;
+	}
+	.add-image:active,.add-image:focus{
+		outline: 0;
+	}
+	.add-images{
+		font-family: 'Open Sans', sans-serif;
+		font-size: 24px;
+	}
+	.add-images,.add-image{
+		position: relative;
+		top:15px;
+		left: 220px;
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+	.add-image{
+		position: relative;
+		top: 23px;
+		left: 228px;
+		font-size: 34px;
+		background-color: white;
+		border: solid 1px #cccccc;
+		padding: 0px 15px 5px 15px;
+		color: #b522a8;
+		border-radius: 6px;
+	}
+	.q-header{
+		color: #ef22ef;
+		margin-left: 47%;
+		font-family: 'Playfair Display', serif;
+	}
+	.question-meme{
+		position: relative;
+		margin-top: 40px;
+		width: 602px;
+		background-color: #E7E7E7;
+		border-radius: 7px;
+		margin-left: 30%;
+		border: solid 1px white;
+	}
+	.question-title{
+		color: black;
+		padding-left: 20px;
+		font-size: 25px;
+		font-family:'Open Sans', sans-serif; 
+	}
+	.question-by{
+		color: #ef22ef;
+		font-size: 27px;
+		font-family: 'Playfair Display', serif;
+	}
+	#question-image{
+		border-radius: 0px;
+		border: none;
+		margin-bottom: 5px;
+	}
+	.question-time{
+		position: absolute;right: 0px;
+	}
+	.question-likes,.answers-count,.views-count{
+		display: inline-block;
+		margin-left: 5px;
+	}
+	.answers-count,.views-count{
+		margin-left: 14px;
+	}
+	.question-action{
+		font-size: 17px;
+		color: #ef22ef;
+		margin-left: 9px;
+	}
+	.answer-btn,.develop-btn{
+		font-size: 19px;
+		color: #ef22ef;
+		font-family: 'Zilla Slab', serif;
+		margin-left: 100px;
+		padding-bottom: 5px;
+		font-size: 18px;
+		letter-spacing: 1.5px;
+	}
+	.develop-btn{
+		position: absolute;
+		right: 0px;
+	}
+	.glyphicon-chevron-right{
+		position: relative;
+		top:1.5px;
+		left:-2px;
+	}
+
+	@media screen and (max-width: 1164px){
+    	 .wrapper{
+	    	position: relative;
+	    	width: 450px;
+	    	height: 55px;
+	    	left:75vw;
+	    	top:5px;
+    	}
+    	#notifications{
+			position: absolute;
+			top:7px;
+			left:13.5vw;
+			color: black;
+			font-size: 33px;
+		}
+
+	/*Post a meme*/
+		#upload{
+			color: black;
+			position: absolute;
+			top:7px;
+			left: 18.5vw;
+			font-size: 35px;
+		}
+    }
+	@media screen and (max-width: 1056px){
+    	 .wrapper{
+	    	position: relative;
+	    	width: 450px;
+	    	height: 55px;
+	    	left:80vw;
+	    	top:5px;
+    	}
+    }
+
+    @media screen and (max-width: 1020px){
+    	 .wrapper{
+	    	position: relative;
+	    	width: 450px;
+	    	height: 55px;
+	    	left:85vw;
+	    	top:5px;
+    	}
+    }
+    @media screen and (max-width: 945px){
+    	 .wrapper{
+	    	position: relative;
+	    	width: 450px;
+	    	height: 55px;
+	    	left:90vw;
+	    	top:5px;
+    	}
+    }
+
+    @media screen and (max-width: 768px){
+    	 .wrapper{
+	    	position: relative;
+	    	width: 450px;
+	    	height: 55px;
+	    	left:105vw;
+	    	top:5px;
+    	}
+    	#notifications{
+			position: absolute;
+			top:7px;
+			left:18vw;
+			color: black;
+			font-size: 33px;
+		}
+
+	/*Post a meme*/
+		#upload{
+			color: black;
+			position: absolute;
+			top:7px;
+			left: 26vw;
+			font-size: 35px;
+		}
+    }
+    @media screen and (max-width: 430px){
+    	 .wrapper{
+	    	position: relative;
+	    	width: 450px;
+	    	height: 55px;
+	    	left:200vw;
+	    	top:5px;
+    	}
+    	#notifications{
+			position: absolute;
+			top:7px;
+			left:27vw;
+			color: black;
+			font-size: 33px;
+		}
+
+	/*Post a meme*/
+		#upload{
+			color: black;
+			position: absolute;
+			top:7px;
+			left: 41vw;
+			font-size: 35px;
+		}
+    }
+    @media screen and (max-width: 375px){
+    	 .wrapper{
+	    	position: relative;
+	    	width: 450px;
+	    	height: 55px;
+	    	left:228vw;
+	    	top:5px;
+    	}
+    	#notifications{
+			position: absolute;
+			top:7px;
+			left:27.5vw;
+			color: black;
+			font-size: 33px;
+		}
+
+	/*Post a meme*/
+		#upload{
+			color: black;
+			position: absolute;
+			top:7px;
+			left: 42vw;
+			font-size: 35px;
+		}
+    }
+
+    @media screen and (max-width: 360px){
+    	 .wrapper{
+	    	position: relative;
+	    	width: 450px;
+	    	height: 55px;
+	    	left:237.5vw;
+	    	top:5px;
+    	}
+    	#notifications{
+			position: absolute;
+			top:7px;
+			left:28vw;
+			color: black;
+			font-size: 33px;
+		}
+
+	/*Post a meme*/
+		#upload{
+			color: black;
+			position: absolute;
+			top:7px;
+			left: 42.5vw;
+			font-size: 35px;
+		}
+    }
+     @media screen and (max-width: 320px){
+    	 .wrapper{
+	    	position: relative;
+	    	width: 450px;
+	    	height: 55px;
+	    	left:275vw;
+	    	top:5px;
+    	}
+    	#notifications{
+			position: absolute;
+			top:7px;
+			left:27vw;
+			color: black;
+			font-size: 33px;
+		}
+
+	/*Post a meme*/
+		#upload{
+			color: black;
+			position: absolute;
+			top:7px;
+			left: 41vw;
+			font-size: 35px;
+		}
+    }
+     
+     
+	/*tabs*/
+	.tab-bottom{
+		z-index: 1;
+	}
+	.tabs{
+		position: relative;
+		top:100px;
+		left:430px;
+		width: 600px;
+		z-index: 2;
+		background-color: #FEFEFE;
+	}
+
+	.recommendedmemes,.shuffledmemes,.freshmemes,.trendingmemes{
+		position: absolute;
+		top:110px;
+		left:-50px;
+	}
+
+	@media screen and (max-width: 1415px){
+		.recommendedmemes,.shuffledmemes,.freshmemes,.trendingmemes{
+			left:-120px;
+		}
+		.tabs{
+			left: 360px;
+		}
+	}
+	
+	@media screen and (max-width: 1340px){
+		.recommendedmemes,.shuffledmemes,.freshmemes,.trendingmemes{
+			left:-180px;
+		}
+		.tabs{
+			left: 300px;
+		}
+	}
+
+	@media screen and (max-width: 1280px){
+		.recommendedmemes,.shuffledmemes,.freshmemes,.trendingmemes{
+			left:-240px;
+		}
+		.tabs{
+			left: 240px;
+		}
+	}
+
+	@media screen and (max-width: 1220px){
+		.recommendedmemes,.shuffledmemes,.freshmemes,.trendingmemes{
+			left:-300px;
+		}
+		.tabs{
+			left: 180px;
+		}
+	}
+
+	#home-page-tabs{
+		position: relative;
+		top:0px;
+		left:400px;
+		width: 600px;
+		z-index: 2;
+		background-color: #FEFEFE;
+	
+	}
+
+	#recommendedmemes,#trendingmemes,#freshmemes,#shuffle,.notif-meme-heading,#memes-tab,#subscriptions-tab,#social-tab,#notif-tab{
+		display: inline-block;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 20px;
+		color: black; 
+		padding: 5px;
+		border-radius: 0px;
+		border-top-left-radius: 5px;
+		border-top-right-radius: 5px;
+	}
+	#memes-tab,#subscriptions-tab,#social-tab{
+		position: absolute;
+		top:0px;
+	}
+	.homepage-tab-bottom{
+		position: absolute;
+		top: 45px;
+	}
+	#recommendedmemes{
+		position: relative;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 20px;
+	}
+
+	#shuffle{
+		margin-left: 43px;
+		letter-spacing: 2px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+
+	.notif-meme-heading{
+		
+		position: fixed;
+		right: 385px;
+		width: 580px;
+		top: 87px;
+		padding-bottom: 0px; 
+		
+	}
+
+	.borderi{
+		border-left: solid;
+		border-right:solid;
+		border-top:solid;
+		border-left-color: #b522a8;
+		border-right-color: #b522a8;
+		border-top-color: #b522a8;
+	}
+
+	.border{
+		border-left: solid;
+		border-right:solid;
+		border-top:solid;
+		
+		border-left-color: #b522a8;
+		border-right-color: #b522a8;
+		border-top-color: #b522a8;
+	}
+
+	.recommendedmemes,.shuffledmemes,.trendingmemes,.freshmemes{
+		margin-top:-1px;
+		width: 600px;
+		margin-left: 480px;
+			
+	}
+
+	.trendingmemes,.freshmemes{
+		display: none;
+	}
+
+
+	a.cursor:hover{
+		cursor:default;
+	}
+
+
+	#trendingmemes,#freshmemes{
+		margin-left: 47px;
+		letter-spacing: 2px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	/*User Options*/
+	.user-options{
+		display: none;
+		position: fixed;
+		right:135px;
+		top:50px;
+		background-color: #dadada;
+		border-bottom-right-radius: 5px;
+		border-bottom-left-radius: 5px;
+	}
+	.user-option{
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+	.user-option-link{
+
+		color: black;
+	}
+	.user-option:hover{
+		color: black;
+		background-color: #aaaaaa;
+	}
+	a.user-option-link:hover{
+		text-decoration: none;
+	}
+
+		/*Header 2*/
+	.header2{
+		position: fixed;
+		top: 50px;
+		z-index: 10;
+		display: none;
+		background-color: #888888;
+		width: 100%;
+	}
+	a.categ-link{
+		color: white;
+	}
+	.categ{
+		display: inline-block;
+		font-size: 1vw;
+		margin-left: 25px;
+	}
+	a.categ-link:hover,a.categ-link:active,a.categ-link:focus{
+		color: black;
+	}
+
+	/*notif section*/
+
+
+	.notifications-column{
+		display: none;
+		width: 370px;
+		position: fixed;
+		top:75px;
+		right: 5px;
+		vertical-align: top;
+	}
+
+	.notifications-body{
+		max-height: 640px;
+		overflow-y:auto;
+	}
+
+	a.notif-link{
+		color:black;
+	}
+
+	.addBackground{
+		color: #b522a8;
+		
+	}
+
+	.recommendedmemes,.shuffledmemes,.freshmemes,.trendingmemes{
+		position: relative;
+	}
+
+	.notifications-column,.shuffledmemes,.recommendedmemes,.freshmemes,.trendingmemes{
+		display: inline-block;
+
+	}
+
+	#notif-heading{
+		font-size: 22px;
+		border-bottom: solid 3px;
+		border-bottom-color: #b522a8;
+		padding: 10px;
+	}
+
+	
+
+	
+
+	.notif{
+		padding: 5px;
+		min-height: 70px;
+		border-bottom: solid 1.5px #cccccc;
+	}
+
+	.notif-dp{
+		height: 50px;
+		border-radius: 50%;
+	}
+
+	.notif-dp,.notif-text{
+		display: inline-block;
+		vertical-align: top;
+	}
+
+	a{
+		color: #b522a8;
+	}
+
+	.notif-text{
+		font-size: 17px;
+		margin-left: 10px;
+		width: 250px;
+	}
+
+	.notif-memes{
+		display: none;
+		border-top: solid;
+		border-top-color: #b522a8; 
+		padding-top: 0px;
+		position: absolute;
+		top:159px;
+		left:482px;
+	}
+
+	/*memes*/
+
+	.meme{
+		position: relative;
+		margin-top: 25px;
+		margin-left: 0px;
+		width: 600px;
+		background-color: white;
+		border-radius: 5px;
+		border: solid;
+		border-color: #cccccc;
+		border-width: 1px;
+		margin-bottom: 55px;
+
+
+	}
+
+	.image{
+		width: 598px;
+	}
+	
+	#title{
+		color:black;
+	}
+	.title{
+		font-size: 25px;
+		margin-top: 15px;
+		margin-left: 7px;
+	}
+	.posted-by{
+		position: absolute;
+		right:5px;
+		font-size: 15px;
+		bottom: 10px;
+	}
+
+	.small-profile{
+		display: none;
+	}
+
+	.posted-by,.title{
+		display: inline-block;
+		vertical-align: bottom;
+	}
+
+	.upvote,.comment{
+		display: inline-block;
+		width:35px;
+		height: 35px;
+		margin-left: 7px;
+		margin-top: 10px;
+		border-color: black;
+		margin-bottom: 12px;
+	}
+
+	.upvote{
+		position: absolute;
+		left:280px;
+		width: 40px;
+		height: 40px;
+		bottom:0px;
+	}
+
+	.points{
+		font-size: 15px;
+		margin-left: 7px;
+	}
+	
+	.upvotes,.comment{
+		display: inline-block;
+	}
+	.subscribe-button{
+		position: absolute;
+		bottom:9px;
+		left: 65px;
+		background-color: #2F2F2F;
+		color: white;
+		position: absolute;
+		font-family: 'Open Sans', sans-serif;
+		letter-spacing: 4px;
+		font-size: 19px;
+		border-top-right-radius: 0px;
+		border-bottom-right-radius: 0px;
+		border-right-color: white;
+		border-right-width: 1px;
+	}
+	.subscribers{
+		color: white;
+		cursor: default;
+		position: absolute;
+		width: 53px;
+		height:41px;
+		left:209px;
+		background-color: #2F2F2F;
+		font-family: 'Open Sans', sans-serif;
+		letter-spacing: 4px;
+		font-size: 22px;
+		padding-left: 8px;
+		padding-top:  5px;
+		border-radius: 5px;
+		bottom: -1px;
+		border-top-left-radius: 0px;
+		border-bottom-left-radius: 0px;
+	}
+	.points,.comments,.category_1,.flag{
+		display: inline-block;
+	}
+	.flag{
+		margin-left: 10px;
+		font-size: 17px;
+		color: black;
+		cursor: pointer;
+
+		appearance: none;
+	    -webkit-appearance: none;
+	    -moz-appearance: none;
+	    outline: none;
+	    border: 0;
+	    background: transparent;
+	}
+	.flag-message{
+		width: 600px;
+		position: relative;
+		height: 230px;
+		border: solid;
+		margin-top: 20px;
+		font-size: 17px;
+		color:white;
+		border-color: black;
+		background-color: #3F3F3F;
+		border-radius: 5px;
+		border-width: 1px;
+	}
+	#flag-p,.flag-form{
+		position: absolute;
+		letter-spacing: -1px;
+		top:10px;
+		left: 15px;
+		padding: 5px;
+	}
+	.flag-form{
+		top:65px;
+	}
+	.comments{
+		font-size: 15px;
+		margin-left: 10px;
+	}
+
+	.flag-submit{
+		position: absolute;
+		top:177px;
+		letter-spacing: 2px;
+		left:20px;
+		background-color: black;
+		border: solid white 1px;
+	}
+	.flag-submit:hover,.flag-submit:active,.flag-submit:focus{
+		color: white;
+	}
+
+	.origin{
+		position: absolute;
+		font-size: 17px;
+		top:0px;
+		right: 5px;
+	}
+
+	.category_1{
+		position: absolute;
+		right:5px;
+		
+
+	}
+
+	/*comment section*/
+
+	.comment-section{
+		background-color: #BFBFBF;
+		border-style: solid;
+		border-width: 1px;
+		display: none;
+		border-color: #8A8A8A;
+		width:500px;
+		height: 568px;
+		position: absolute;
+		top:190px;
+		
+		margin-left: 10px;
+		border-radius: 5px;
+	}
+
+	.comment-wrapper{
+		position: relative;
+	}
+
+	.comment-box-text{
+		color:white;
+		position: absolute;
+		top:150px;
+	}
+
+	.comment-input{
+		width:400px;
+		border-radius: 5px;
+		color: white;
+		position: absolute;
+		bottom:8px;
+		left:6px;
+		background-color: #333333;
+		border-color: white;
+		line-height: 20px;
+
+			
+	}
+
+	.submit-comment{
+		position: absolute;
+
+		bottom: 8px;
+		right: 34px;
+		border-radius: 5px;
+		border-color: white;
+		color: white;
+		border-bottom-left-radius: 0px;
+		border-top-left-radius: 0px;
+		width: 70px;
+		height: 54px;
+		background-color: #1a1a1a;
+	}
+
+	.heading{
+		height: 50px;
+		color:white;
+		border-bottom: solid;
+		border-bottom-color: black;
+		border-top-left-radius: 8px;
+	}
+
+
+	.comment-heading{
+		position: absolute;
+		border-bottom: solid;
+		border-bottom: black;
+		
+		top:0px;
+		left:12px;
+		font:sans-serif;
+		font-size: 30px;
+		color: white;
+	}
+
+	.submission{
+		position: absolute;
+		border-top: solid;
+		bottom: 0px;
+		width: 500px; 
+		height: 75px;     
+	}
+
+	button.submit-comment:hover{
+		color: #b522a8;
+	}
+
+	textarea.form-control:focus,button.submit-comment:focus{
+  		border-color: inherit;
+  		-webkit-box-shadow: none;
+  		box-shadow: none;
+	}
+
+	input.comment-input::-webkit-input-placeholder{
+		font-size: 10px;
+	}
+
+	div.comments{
+		background-color: #555555;
+		margin-top: 10px;
+		width:500px;
+		position: absolute;
+		left: -10px;
+		bottom: 100px;
+		
+	}
+
+	.real-comment{
+		padding:10px;
+		font-size: 20px;
+		width:480px;
+		color:white;
+		position: relative;
+	}
+
+
+	h1.username{
+		position: absolute;
+		font-size: 20px;
+		top:0px;
+		left: 60px;
+		color: white;
+	}
+
+	.comment-top{
+		width: 470px;
+	}
+
+	/*Info box*/
+	.infobox{
+		position: relative;
+		margin-top: 100px;
+		height: 320px;
+		width:920px;
+		background-color: white;
+		border-radius: 8px;
+		border: solid;
+		border-width: 1px;
+		border-color: #cccccc;
+	}
+	#infobox-dp{
+		height: 150px;
+		width: 150px;
+		border-radius: 50%;
+		position: absolute;
+		top:10px;
+		left: 45px;
+	}
+	#userprofile-subscribe-button{
+		background-color: black;
+		position: absolute;
+		font-family: 'Open Sans', sans-serif;
+		letter-spacing: 3px;
+		font-size: 20px;
+		top:270px;
+		left: 40px;
+		width: 170px;
+	}
+	.friend-request{
+		background-color: black;
+		position: absolute;
+		font-family: 'Open Sans', sans-serif;
+		letter-spacing: -1.85px;
+		font-size: 20px;
+		top:225px;
+		left: 40px;
+		width: 170px;
+	}
+	#friends{
+		letter-spacing: 1px;
+	}
+	h1.username{
+		position: absolute;
+		font-family: 'Open Sans', sans-serif;
+		color: black;
+		font-size: 35px;
+		letter-spacing: 2px;
+		top:150px;
+		left: 70px;
+	}
+	.left-part{
+		height: 318px;
+		width: 260px;
+		border-right:solid 1px #bbbbbb;
+	}
+	h1.usernick{
+		position: absolute;
+		top:15px;
+		left:290px;
+		font-family: 'Open Sans', sans-serif;
+		letter-spacing: 2px;
+	}
+	h1.info-subscribers,h1.info-subscribed,h1.info-posts{
+		position: absolute;
+		top:100px;
+		font-size: 30px;
+		font-family: 'Open Sans', sans-serif;
+		letter-spacing: 1px;
+	}
+	
+	h1.info-subscribers{
+		position: absolute;
+		left: 290px;
+	}
+	h1.info-subscribed{
+		 position: absolute;
+		 top:165px;
+		 left: 290px;
+	}
+	h1.info-posts{
+		position: absolute;
+		left:620px;
+	}
+	h1.info-questions{
+		position: absolute;
+		top:165px;
+		font-size: 30px;
+		font-family: 'Open Sans', sans-serif;
+		letter-spacing: 2px;
+		left: 365px;
+	}
+	h1.info-questions{
+		letter-spacing: -1px;
+		left:620px;
+	}
+	h1.score{
+		position: absolute;
+		color: #b522a8;
+		top:5px;
+		left:490px;
+		font-style: italic;
+		font-size: 21px;
+		font-family: 'Open Sans', sans-serif;
+		letter-spacing: 2px;
+	}
+	h1.user-says{
+		position: absolute;
+		font-style: italic;
+		top:235px;
+		left: 385px;
+		font-size: 30px;
+		font-family: 'Open Sans', sans-serif;
+		letter-spacing: 2px;
+	}
+	#score{
+
+	    display: block;
+	    height: 56px;
+	    width: 56px;
+	    line-height: 54px;
+
+	    -moz-border-radius: 30px; /* or 50% */
+	    border-radius: 30px; /* or 50% */
+	    border: solid;
+	    border-color: #b522a8;
+	    color: #b522a8;
+	    text-align: center;
+	}
+	.btn:active,.btn:focus{
+		outline: 0;
+	}
+
+	.change-pass-btn:hover,.change-pass-btn:active,.change-pass-btn:focus,.crop:hover,.crop:active,.crop:focus,.change-pic:hover,.change-pic:active,.change-pic:focus,.inviteToMeaglButton:hover,.inviteToMeaglButton:active,.inviteToMeaglButton:focus,.signup-button:hover,.signup-button:active,.signup-button:focus,.login-button:hover,.login-button:active,.login-button:focus,#userprofile-subscribe-button:hover,.friend-request:hover,#userprofile-subscribe-button:focus,.friend-request:focus,#userprofile-subscribe-button:active,.friend-request:active,.create-group:active,.create-group:hover,.create-group:focus{
+		color: #b522a8;
+		border: solid;
+		background-color: white;
+		border-color: #b522a8;
+		border-width: 1px;
+	}
+	.subscribe-button:hover{
+		color: #b522a8;
+		border: solid;
+		background-color: white;
+		border-color: #b522a8;
+		border-width: 1px 0px 1px 1px;
+
+	}
+	.signup{
+		position: absolute;
+		top: 130px;
+		right: 170px;
+		width: 450px;
+		height: 550px;
+		background-color: white;
+		border:solid #cccccc 1px;
+		border-radius: 7px;
+	}
+	.signup-field{
+		position: relative;
+		width: 300px;
+		left: 60px;
+	}
+
+	.invitation{
+		position: relative;
+		left:430px;
+		width: 500px;
+	}
+	.invitation-header{
+		position: relative;
+		top: 10px;
+		margin-left: 50px;
+		font-size: 25px;
+		font-family: 'Open Sans', sans-serif;
+	}
+	#inviteToMeaglTextBox{
+		position: relative;
+		width: 240px;
+		left: 70px;
+		top:20px;
+		font-size: 16px;
+		border-bottom-right-radius: 0px;
+		border-top-right-radius: 0px;
+	}
+	.inviteToMeaglButton{
+		position: relative;
+		top:-34px;
+		left:310px;
+		background-color: black;
+		color: white;
+		border-bottom-left-radius: 0px;
+		border-top-left-radius: 0px;
+		letter-spacing: -0.5px;
+	}
+	.score-prompt{
+		position: relative;
+		bottom: 25px;
+		left:52px;
+		font-family: 'Open Sans', sans-serif;
+	}
+	#memes-tab,#subscriptions-tab,#social-tab,#notif-tab{
+		color: #b522a8;
+		font-family: 'Open Sans', sans-serif;
+		letter-spacing: 1px;
+		font-size: 25px;
+		cursor: pointer;
+	}
+	#subscriptions-tab{
+		margin-left: 201px;
+	}
+	a:hover,a:active,a:focus{
+		text-decoration: none;
+	}
+	#social-tab{
+		margin-left: 438px;
+		padding-left:11px;
+		padding-right: 13px;
+	}
+	#notif-tab{
+		margin-left: 650px;
+	}
+	.memes-tab-content,.subscriptions-tab-content,.social-tab-content{
+		position: relative;
+		top: 0px;
+		left:400px;
+		width: 600px;
+	}
+	.inner-tabs{
+		margin-top: 30px;
+	}
+	.inner-current{
+		border-bottom: #b522a8 2px;
+	}
+	.subscribed-channels,.subscribed-categories,.all-content{
+		display: inline-block;
+		vertical-align: top;
+		color: black;
+		font-size: 17px;
+	}
+	.subscribed-categories,.all-content{
+		margin-left: 40px;
+	}
+	.addBorder{
+		border-radius: 5px;
+		border-right: solid;
+		border-left: solid;
+		border-top: solid;
+	}
+	.search-people{
+		position: absolute;
+		top:30px;
+		width:242px;
+		font-size: 17px;
+		border-bottom-right-radius: 0px;
+		border-top-right-radius: 0px;
+	}
+	.usersearchbutton{
+		position: relative;
+		left: 242px;
+		top:10px;
+		letter-spacing: -0.5px;
+		font-family: 'Open Sans', sans-serif;
+		border-bottom-left-radius: 0px;
+		border-top-left-radius: 0px;
+	}
+	.create-group{
+		background-color: black;
+		color: white;
+		font-family: 'Open Sans', sans-serif;
+		letter-spacing: -0.5px;
+		font-size: 15px;
+	}
+	::-webkit-input-placeholder{
+		font-size: 18px;
+		font-family: 'Open Sans', sans-serif;
+		letter-spacing: 1.85px;
+	}
+	.requests{
+		background-color: white;
+		width: 600px;
+		height: 650px;
+		border:solid;
+		border-width: 1px;
+		border-radius: 7px;
+		position: relative;
+		top:100px;
+
+	}
+	.request{
+		margin-top: 20px;
+		position: relative;
+		top:0px;
+		
+	}
+	.request-content{
+		font-size: 23px;
+		font-family: 'Open Sans', sans-serif;
+		letter-spacing: 0.5px;
+		margin-left:10px;
+		width:430px;
+	}
+	.accept{
+		background-color: white;
+		border: solid;
+		border-width: 1px;
+		font-family: 'Open Sans', sans-serif;
+		letter-spacing: 1.85px;
+		font-size: 20px;
+		position:absolute;
+		top:5px;
+		left: 440px;
+		width: 70px;
+	}
+	.accept:hover,.reject:hover{
+		text-decoration: none;
+	}
+	.reject{
+		background-color: white;
+		border: solid;
+		border-width: 1px;
+		font-family: 'Open Sans', sans-serif;
+		letter-spacing: 1.85px;
+		font-size: 20px;
+		position: absolute;
+		top:5px;
+		left: 514px;
+		width: 70px;
+	}
+	.friend-request-heading{
+		font-family: 'Open Sans', sans-serif;
+		letter-spacing: 1.85px;
+		font-size: 25px;
+		margin-left: 10px;
+		font-style: italic;
+		color: #b522a8;
+
+	}
+	.group-request-heading{
+		font-family: 'Open Sans', sans-serif;
+		letter-spacing: 1.85px;
+		font-size: 25px;
+		margin-left: 8px;
+		position: relative;
+		top:0px;
+		font-style: italic;
+		color: #b522a8;
+
+	}
+	.load-more{
+		font-size: 20px;
+		position: relative;
+		top:0px;
+		left: 10px;
+		color: #b522a8;
+		font-weight: lighter;
+		font-family: 'Open Sans', sans-serif;
+	}
+	.meagles-heading{
+		width: 600px;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 30px;
+		font-style: italic;
+		color: #b522a8;
+		position: relative;
+		border-top: solid;
+		border-color: black;
+		border-width: 2px;
+		padding-top:40px;
+		top: 100px;
+		left: 0px;
+	}
+	.meagles{
+		position: relative;
+		top:100px;
+	}
+	.workstation{
+		position: relative;
+	}
+	#workstation-meme{
+		border-radius: 7px;
+		width: 600px;
+	}
+	#workstation{
+		border: solid;
+		border-radius: 7px;
+	}
+
+	.dragger{
+		width:20px;
+		height: 20px;
+		border-radius: 50%;
+		border-color: black;
+		background-color: black;
+		position: absolute;
+		bottom: -7px;
+		z-index: 10;
+	}
+	#half-width-1{
+		left: -8px;
+	}
+
+
+
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+					Dedicated meme update(21 JUNE 2017)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*/
+
+.dedicated-meme,.right-container{
+	display: inline-block;
+	vertical-align: top;
+}
+
+.dedicated-meme{
+	margin-top: 100px;
+	margin-left: 40px;
+}
+
+.posters-plate{
+	position: relative;
+	margin-left: 10px;
+	margin-top:100px;
+	background-color: white;
+	border-radius: 8px;
+	width: 440px;
+	height: 200px;
+	border: solid 1px;
+	border-color: #cccccc;
+}
+
+.posters-time,.posters-info{
+	position: absolute;
+	right: 10px;
+	bottom:-6px;
+	font-size: 20px;
+}
+.posters-time{
+	font-size: 15px;
+}
+
+.category-plate{
+	position: relative;
+	margin-left: 10px;
+	top:30px;
+	background-color: white;
+	border-radius: 8px;
+	width: 440px;
+	height: 200px;
+	border: solid 1px; 
+	border-color: #cccccc;
+}
+
+/*Settings*/
+.setting-heading{
+	position: relative;
+	left: 310px;
+	top: 130px;
+	width: 250px;
+	height: 130px;
+}
+.setting-link:hover{
+	cursor: pointer;
+	text-decoration: none;
+	color: #b522a8;
+}
+.setting-header{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 21px;
+	position: relative;
+	left: 20px;
+	top: 0px;
+	padding: 10px;
+}
+.current-link{
+	background-color: #cccccc;
+}
+.setting-header:hover{
+	background-color: #eeeeee;
+}
+.prof-pic-update{
+	position: absolute;
+	left:600px;
+	top:150px;
+	border-left: solid black 1px;
+}
+#prof-pic{
+	position: absolute;
+	top: 50px;
+}
+#prof-pic-canvas{
+	position: absolute;
+	margin-left: 40px;
+}
+.crop,.change-pic{
+	position: absolute;
+	top:0px;
+	background-color: black;
+	color: white;
+}
+.change-pic{
+	left: 60px;
+}
+.inner-pos{
+	position: relative;
+	left: 20px;
+}
+#update-pic{
+	letter-spacing: -0.75px;
+}
+#change-pass{
+	letter-spacing: 1px;
+}
+#update-stat{
+	letter-spacing: 1.33px;
+}
+.change-password{
+	display: none;
+	position: absolute;
+	left:625px;
+	top:170px;
+}
+.change-password{
+	font-size: 17px;
+	font-family: 'Open Sans','sans-serif';
+}
+input.inner-password::-webkit-input-placeholder{
+	letter-spacing: -1px;
+}
+.change-pass-btn{
+	margin-left: 20px;
+	margin-top: 20px;
+	background-color: black;
+	color: white;
+}
+.inner-password{
+	margin-left: 20px;
+}
+#userStatus{
+	position: absolute;
+	top: 65px;
+	left: 80px;
+	background-color: white;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+.edit-status{
+	background-color: black;
+	color: white;
+	font-size: 18px;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+	position: absolute;
+	top: 65px;
+}
+.update-status{
+	display: none;
+	position: absolute;
+	left:600px;
+	top:150px;
+}

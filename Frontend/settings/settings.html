@@ -1,0 +1,63 @@
+<head>
+
+    <title>Settings</title>
+	<!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+    
+    <link rel="stylesheet" type="text/css" href="sharvai'sglobal.css" />
+    <script
+  src="https://code.jquery.com/jquery-3.1.1.js"
+  integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+  crossorigin="anonymous"></script>
+  	<script src="newhome.js"></script>
+  	<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+
+     <link rel="stylesheet" href="jquery-ui.min.css">
+	<script src="external/jquery/jquery.js"></script>
+	<script src="jquery-ui.min.js"></script>
+
+        
+</head>
+<body>
+	<div class="setting-heading">
+		<a class="setting-link"><h2 class="setting-header" id="update-pic">Update Profile Picture</h2></a>
+	    <a class="setting-link"><h2 class="setting-header" id="change-pass">Change Password</h2></a>
+		<a class="setting-link"><h2 class="setting-header" id="update-stat">Update Status</h2></a>
+	</div>
+			 
+	<div class="prof-pic-update">
+			<button class="change-pic btn">Change Picture</button>
+			
+			<button class="crop btn">Crop</button>
+			<canvas id="prof-pic"></canvas>
+			<canvas id="prof-pic-canvas"/>
+	</div>
+	
+	<div class="change-password">
+		<form action="" class="change_password_form" method="post">		
+			<input type="password" class="inner-password" id="change_password_textarea_0" placeholder="Old Password" name="password1"><br><br>
+			<input type="password" class="inner-password" id="change_password_textarea_1" placeholder="New Password" name="password1"><br><br>		
+			<input type="password" class="inner-password" id="change_password_textarea_2" placeholder="Confirm Password" name="password2"><br>
+			<input type="submit" value="Change Password" name="changePasswordButton" class="change-pass-btn btn">
+		</form>
+
+		<p id="changePasswordMessage"></p>
+	</div>	
+
+
+	<div class="update-status">
+		<form class="updateUserStatus" action="" method="POST">
+			<pre id="userStatus"><i>Hey there i am using meagle</i></pre>
+			<button id="allowEditUserStatus" class="edit-status btn">Edit</button>
+			<button id="updateUserStatus" style="display:none">Save</button>
+		</form>
+	</div>
+	
+</body>
