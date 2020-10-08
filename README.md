@@ -1,5 +1,5 @@
 # MEAGL
-<img src="m.png" width="40%">
+<img src="m.png" width="30%">
 Meagl is the place where memers can make making memes a career. Just post your memes and your audience can send you tips!
 
 <br>
@@ -28,6 +28,12 @@ These are the tabs under the profile page:
 Next, lets look at the comments section:
 <br>
 <img src="comments.jpg">
+
+<br>
+<h2>Creating a channel</h2><br>
+One has to create a channel to enable tipping. The process is as follows:
+<img src="createchannel.jpg"><br>
+<img src="setupchannel.jpg">
 
 <br>
 <h2>Tipping a meme</h2>
